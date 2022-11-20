@@ -1,0 +1,174 @@
+.search {
+    padding-left: 10px;
+    border-style: lighter;
+    border-width: 1px;
+    display: flex;
+    flex: 1;
+    height: 35px;
+    border-color: rgb(192, 192, 192);
+    font-size: 16px;
+    border-radius: 2px;
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+
+
+}
+.search::placeholder {
+    font-family: Roboto, Arial;
+    font-size: 16px;
+    padding-left: 7px;
+    /* border-style: solid;
+    border-width: 1px;
+    border-color: rgb(192, 192, 192); */
+}
+.header {
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: white;
+    border-bottom: 2px rgb(146, 145, 145);
+    z-index: 100;
+}
+
+.lefthead {
+    width: 150px;
+    /* background-color: aquamarine; */
+    margin-right: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.middlehead {
+    flex: 1;
+    /* background-color: lightpink; */
+    margin-right: 35px;
+    max-width: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+
+
+
+
+.ham {
+    height: 25px;
+    margin-left: 15px;
+    margin-right: 20px;
+
+}
+
+.ham:hover {
+    cursor: pointer;
+}
+
+.ytlogo {
+    height: 55px;
+}
+
+.ytlogo:hover {
+    cursor: pointer;
+}
+
+.searchbtn {
+    height: 25px;
+    padding-right: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 15px;
+    border: 1px solid;
+    border-color: rgb(192, 192, 192);
+
+
+}
+
+.searchbtn:hover {
+    cursor: pointer;
+}
+
+.voicebtn {
+    height: 25px;
+    padding: 7px;
+
+    border-radius: 50%;
+    margin-left: 20px;
+
+}
+
+.voicebtn:hover {
+    cursor: pointer;
+}
+
+.righthead {
+    width: 200px;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    /* flex-shrink: 0; */
+
+
+}
+
+.upload-icon {
+    height: 24px;
+}
+
+.upload-icon:hover {
+    cursor: pointer;
+}
+
+.notinum {
+    position: relative;
+}
+
+.nnum {
+    /* width:15px;
+    height:15px; */
+    padding: 2px 6px 2px 6px;
+    font-size: 12px;
+    align-items: center;
+    position: absolute;
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+
+}
+
+.notification-icon {
+    height: 24px;
+}
+
+.notification-icon:hover {
+    cursor: pointer;
+}
+
+.profile {
+    margin-top: 10px;
+    margin-right: 10px;
+    height: 36px;
+    border-radius: 50%;
+
+
+}
+
+.profile:hover {
+    cursor: pointer;
+}
+
+.menu {
+    height: 24px;
+}
+
+.menu:hover {
+    cursor: pointer;
+}
